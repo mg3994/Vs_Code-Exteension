@@ -10,12 +10,24 @@
     "Other",
     "Keymaps",
     "Education",
-    "Snippets"
+    "Snippets",
+    "Programming Languages"
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
   "browser": "./dist/web/extension.js",
   "contributes": {
+    "languages": [{
+      "id": "dart",
+      "aliases": ["dart", "dart"],
+      "extensions": [".dart"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "dart",
+      "scopeName": "main.dart",
+      "path": "./syntaxes/dart.tmLanguage.json"
+    }],
     "keybindings": [
       {
         "key": "ctrl+shift+p",
