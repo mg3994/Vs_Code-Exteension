@@ -11,8 +11,16 @@
     "Keymaps",
     "Education",
     "Snippets",
-    "Programming Languages"
+    "Programming Languages",
+    "Extension Packs"
   ],
+  "extensionPack": [ 
+     "dart-code.dart-code", 
+  "dart-code.flutter", 
+  "felixangelov.bloc", 
+  "usernamehw.errorlens", 
+  "mn-fe.zd-tmpl"  
+],
   "activationEvents": [],
   "main": "./dist/extension.js",
   "browser": "./dist/web/extension.js",
