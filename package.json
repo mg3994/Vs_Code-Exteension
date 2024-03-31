@@ -8,6 +8,7 @@
   },
   "categories": [
     "Other",
+    "Keymaps",
     "Education",
     "Snippets"
   ],
@@ -15,6 +16,12 @@
   "main": "./dist/extension.js",
   "browser": "./dist/web/extension.js",
   "contributes": {
+    "keybindings": [
+      {
+        "key": "ctrl+.",
+        "command": "workbench.action.showCommands"
+      }
+    ],
     "snippets": [
       {
         "language": "dart",
