@@ -12,7 +12,8 @@
     "Education",
     "Snippets",
     "Programming Languages",
-    "Extension Packs"
+    "Extension Packs",
+    "Themes"
   ],
   "extensionPack": [ 
      "dart-code.dart-code", 
@@ -25,6 +26,13 @@
   "main": "./dist/extension.js",
   "browser": "./dist/web/extension.js",
   "contributes": {
+    "themes": [
+      {
+        "label": "Antinna Theme",
+        "uiTheme": "vs",
+        "path": "./themes/AntinnaTheme-color-theme.json"
+      }
+    ],
     "languages": [{
       "id": "dart",
       "aliases": ["dart", "dart"],
