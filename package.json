@@ -17,10 +17,62 @@
   "browser": "./dist/web/extension.js",
   "contributes": {
     "keybindings": [
-      {
-        "key": "ctrl+.",
+    {
+        "key": "ctrl+shift+p",
         "command": "workbench.action.showCommands"
-      }
+    },
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.files.save"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveAs"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "actions.find"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "workbench.action.findInFiles"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "editor.action.goToLine"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.reopenClosedEditor"
+    }
     ],
     "snippets": [
       {
