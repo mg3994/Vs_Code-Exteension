@@ -28,9 +28,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Antinna Theme",
+        "label": "Antinna Light Theme",
         "uiTheme": "vs",
-        "path": "./themes/AntinnaTheme-color-theme.json"
+        "path": "./themes/AntinnaLightTheme-color-theme.json"
       }
     ],
     "languages": [{
