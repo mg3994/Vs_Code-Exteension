@@ -17,7 +17,7 @@
   "browser": "./dist/web/extension.js",
   "contributes": {
     "keybindings": [
-    {
+      {
         "key": "ctrl+shift+p",
         "command": "workbench.action.showCommands"
     },
@@ -72,6 +72,34 @@
     {
         "key": "ctrl+shift+t",
         "command": "workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "editor.action.addCommentLine"
+    },
+    {
+        "key": "ctrl+k ctrl+u",
+        "command": "editor.action.removeCommentLine"
+    },
+    {
+        "key": "ctrl+alt+up",
+        "command": "editor.action.moveLinesUp"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "editor.action.moveLinesDown"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "expandLineSelection"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "workbench.action.toggleLineComment"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "workbench.view.extensions"
     }
     ],
     "snippets": [
