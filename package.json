@@ -13,7 +13,8 @@
     "Snippets",
     "Programming Languages",
     "Extension Packs",
-    "Themes"
+    "Themes",
+    "Language Packs"
   ],
   "extensionPack": [ 
      "dart-code.dart-code", 
@@ -26,6 +27,12 @@
   "main": "./dist/extension.js",
   "browser": "./dist/web/extension.js",
   "contributes": {
+    "localizations": [{
+      "languageId": "dart",
+      "languageName": "Dart",
+      "localizedLanguageName": "dart",
+      "translations":[]
+    }],
     "themes": [
       {
         "label": "Antinna Light Theme",
@@ -163,8 +170,8 @@
     "compile-web": "webpack",
     "watch-web": "webpack --watch",
     "package-web": "webpack --mode production --devtool hidden-source-map",
-    
-    "run-in-browser": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. ."
+    "run-in-browser": "vscode-test-web --browserType=chromium --extensionDevelopmentPath=. .",
+    "update": "cd ../vscode && yarn run update-localization-extension dart"
   },
   "devDependencies": {
     "@types/vscode": "^1.87.0",
